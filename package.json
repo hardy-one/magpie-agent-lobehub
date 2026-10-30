@@ -1,0 +1,11 @@
+{
+  "name": "magpie-agent-lobehub",
+  "version": "0.1.0",
+  "description": "magpie agent plugin: draws LobeHub's calls as LobeHub, with its logo",
+  "type": "module",
+  "files": ["lobehub.agent.mjs", "README.md"],
+  "keywords": ["magpie", "magpie-plugin", "lobehub", "agent"],
+  "license": "MIT",
+  "repository": {"type": "git", "url": "git+https://github.com/hardy-one/magpie-agent-lobehub.git"},
+  "magpie": {"agent": "./lobehub.agent.mjs", "icon": "https://raw.githubusercontent.com/hardy-one/magpie-agent-lobehub/main/icon.svg"}
+}
