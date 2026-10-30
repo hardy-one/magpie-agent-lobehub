@@ -5,6 +5,10 @@ export const agent = {
   config: '~/.config/magpie/lobehub-agent.json',
   format: 'json',
 
+  // The logo LobeHub uses. magpie fetches it and keeps it, so the pages draw
+  // it without asking again.
+  icon: 'https://raw.githubusercontent.com/hardy-one/magpie-agent-lobehub/main/icon.svg',
+
   // No model key: LobeHub picks magpie's models itself, from the provider
   // the user adds there. The row then carries the switch alone, no model
   // picker that would write somewhere nothing reads.

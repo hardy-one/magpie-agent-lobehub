@@ -1,6 +1,6 @@
 {
   "name": "magpie-agent-lobehub",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "magpie agent plugin: draws LobeHub's calls as LobeHub, with its logo",
   "type": "module",
   "files": ["lobehub.agent.mjs", "README.md"],
